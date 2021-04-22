@@ -1,0 +1,6 @@
+SelectionSort con 1000 elementos: 23 milisegundos
+SelectionSort con 10000 elementos: 122 milisegundos
+SelectionSort con 50000 elementos: 3180 milisegundos
+SelectionSort con 100000 elementos: 12837 milisegundos
+SelectionSort con 200000 elementos: 52723 milisegundos
+SelectionSort con 400000 elementos: 213174 milisegundos

@@ -1,0 +1,2 @@
+Comparando los tiempos de ejecución, vemos que quickSort es mucho más rápido y claro que podemos concluir que la complejidad temporal es mucho menor. 
+Si Selection Srot tenía complejidad O(n^2) esta tendría solamente O(n) lienal, pues solo lee los valores una vez.

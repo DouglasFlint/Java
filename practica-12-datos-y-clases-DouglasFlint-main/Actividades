@@ -1,0 +1,5 @@
+Actividad 6.2
+
+Como "Adios" es lexicograficamente más alto que "Hola", devuelve un número positivo.
+Como "hola" es lexicograficamente menor que "Hola", devuelve un número negativo.
+En el ultimo ejemplo devuelve 0 porque se ignoran las UpperCase y las palabras son iguales.
