@@ -1,0 +1,50 @@
+1.2
+Los archivos que se crearon fueron:
+
+- ClaseRoloj.class  -Reloj.class  -PanelDeRoloj.class  -TiempoSistema.class
+-UsoReloj.class  -VistaReloj.class  -VistaRelojAnalogico.class
+
+Y todos estos se crearon en la carpeta de /practica1
+
+1.4
+El mensaje de error de la consola al querer ejeutar VistaReloj.java fue que faltaba el método principal.
+Y justamente esto es lo que tenía UsoReloj.java que VistaReloj.java no tiene, un método principal definido que nos permite invocar su class.
+
+1.7 
+Obtuve un mensaje que dice: "No se recibieron indicaciones"
+
+1.8
+Cuando cambio los argumentos me regresa o imprime justamente el input que yo escribí, en el lugar del argumento que modofiqué, evidentemente. 
+
+1.10
+En el archivo build.xml de Reloj reconozco los objetivos:
+- compile: Compila la practica.
+- run: Ejecuta la practica y la compila si aún no ha sido compilada.
+- doc: haca la tarea de javadoc, o sea crea la documentación pertinente.
+- clean: limpia la practica de bytecode, la documentación o ambos.
+
+En el archivo build.xml de Entrada reconozco los objetivos:
+- default: es el nombre del traget que se quiere que ejecute por defecto.
+- compile: ...
+- run:...
+- doc:...
+- clean:...
+- dist: no sé para que se usó :(
+
+Sección de Ant
+
+a.- Como Ant es global, compila de una vez todos los archivos ejecutables, en este caso 6 y busca errores en todos ellos. 
+Javac solo analizó el documento que se le indicó.
+
+b.- Ant run corresponde a java, estos dos me ejecutan el programa y me mostraron el reloj analógico.
+
+c.- Pues javadoc genera los html para cada archivo uno por uno, hay muchos Generating.
+En cambio Ant doc pareciera que lo hiciera todo de jalón y por lo tanto es mas eficiente.
+
+d.- La primera vez que ejecuté ant compile me leyó 6 archivos, luego de touch solo 1.
+Entonces pareciera que con touch solo modifico el archivo que le indique.
+
+
+5.- Tipo de errores.
+Los tipos de errorres en UsoReloj eran de tipo sintáctico, ya que no se había escrito de manera correcta el código de acuerdo a las especificaciones del lenguaje.
+Faltaban o estaban mal acomodados algunos paréntesis, por ejemplo.

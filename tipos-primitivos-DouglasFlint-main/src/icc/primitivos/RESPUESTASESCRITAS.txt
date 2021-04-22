@@ -1,0 +1,26 @@
+Actividad 2.1
+
+Cuando sumé 1 a mi "max" me cambió el signo, arrojándome así el menor entero negativo de la clase int.
+Lo que pasó es que cuando se le sumó uno, si imaginamos la representación con bits, se cambiaron todos los unos por ceros pues al ser 2=0 el primero,
+por la propiedad acummulativa se iban convirtiendo en 2=0 todos los demás hasta llegar al final, dando así el menor entero posible.
+
+Actividad 2.3
+Vale 492
+
+Actividad 2.4
+Usando el operador << en el número binario correspondiente 101011001, de acuerdo al número de bits por recorrer, ya sea uno o tres, me agregaba uno (1010110010) o
+tres ceros(101011001000), respectivamente, a la derecha.
+Usando el operador >> en el número binario correspondiente 101011001, de acuerdo al número de bits por recorrer, ya sea uno o tres, me quitaba uno (10101100) o
+tres digitos(101011), respectivamente, empezando por la derecha.
+Como el número era positivo el operador >>> realizaba los mismo que >>.
+
+Actividad 2.5
+Primero creé otra varible que era recorrer hacia la derecha dos bits el valor original de permisos para que al aplicarle después un OR a esta nueva variable
+con la anterior de permisos, todos los ceros quedaron emparejados con un uno y así los nueve dígitos de esta tercer variable fueran todos 1.
+Quise utilizar ~ pero no pude imprimir solo 8 dígitos :(
+
+Ejercicio 5
+El operador & me regresó el entero 0 y el binario 0. Esto porque recordermos que mascara tiene unos en las posiciones 4-7 y xum ceros y da la casualidad de que las
+demás conbinaciones tambieén regresaban falso excepto el primer dígito, dando un cero positivo.
+El operador | me regresó el entero 1519 al igual que ^
+~me regreso el entero negativo -1409

@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"icc.practica1","l":"ClaseReloj"},{"p":"icc.practica1","l":"Reloj"},{"p":"icc.practica1","l":"TiempoSistema"},{"p":"icc.practica1","l":"UsoReloj"},{"p":"icc.practica1","l":"VistaReloj"},{"p":"icc.practica1","l":"VistaRelojAnalogico"}]
